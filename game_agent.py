@@ -262,7 +262,7 @@ class MinimaxPlayer(IsolationPlayer):
             return self.score(game, self)
 
         legal_moves = game.get_legal_moves()
-        best_score = float("-inf")
+        best_score = float("inf")
         for move in legal_moves:
             score = self.max_value(game.forecast_move(move), depth-1)
             if score < best_score:
@@ -278,7 +278,7 @@ class MinimaxPlayer(IsolationPlayer):
             return self.score(game, self)
 
         legal_moves = game.get_legal_moves()
-        best_score = float("inf")
+        best_score = float("-inf")
         for move in legal_moves:
             score = self.min_value(game.forecast_move(move), depth - 1)
             if score > best_score:
@@ -371,7 +371,7 @@ class AlphaBetaPlayer(IsolationPlayer):
             return self.score(game, self)
 
         legal_moves = game.get_legal_moves()
-        best_score = float("-inf")
+        best_score = float("inf")
         for move in legal_moves:
             score = self.max_value(game.forecast_move(move), depth - 1, alpha, beta)
             if score < best_score:
@@ -393,7 +393,7 @@ class AlphaBetaPlayer(IsolationPlayer):
             return self.score(game, self)
 
         legal_moves = game.get_legal_moves()
-        best_score = float("inf")
+        best_score = float("-inf")
         for move in legal_moves:
             score = self.min_value(game.forecast_move(move), depth - 1, alpha, beta)
             if score > best_score:

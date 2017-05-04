@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df4fd4d5-c923-43bc-82bd-463eb2c1d09f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/isolation-10486.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/isolation-10487.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/isolation-result-10487.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game_agent.py" afterPath="$PROJECT_DIR$/game_agent.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tournament.py" afterPath="$PROJECT_DIR$/tournament.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="game_agent.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game_agent.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game_agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="120" column="60" lean-forward="true" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="60" />
+            <state relative-caret-position="307">
+              <caret line="373" column="0" lean-forward="false" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="33" />
               <folding>
                 <element signature="e#200#213#0" expanded="true" />
               </folding>
@@ -30,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tournament.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tournament.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tournament.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1508">
-              <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+            <state relative-caret-position="559">
+              <caret line="154" column="54" lean-forward="true" selection-start-line="154" selection-start-column="54" selection-end-line="154" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -74,6 +77,8 @@
       <find>board_state</find>
       <find>ilegal</find>
       <find>print(depth</find>
+      <find>get_move</find>
+      <find>def min_value</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,10 +101,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="84" />
-    <option name="y" value="34" />
-    <option name="width" value="1366" />
-    <option name="height" value="689" />
+    <option name="x" value="178" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -394,10 +399,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="34" width="1366" height="689" extended-state="0" />
-    <editor active="false" />
+    <frame x="178" y="23" width="1440" height="821" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25622255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -498,21 +503,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tournament.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1508">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game_agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="120" column="60" lean-forward="true" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="60" />
+        <state relative-caret-position="307">
+          <caret line="373" column="0" lean-forward="false" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="33" />
           <folding>
             <element signature="e#200#213#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tournament.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="154" column="54" lean-forward="true" selection-start-line="154" selection-start-column="54" selection-end-line="154" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
